@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=DynaPuff&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=DynaPuff&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=DynaPuff&family=Poppins:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navBlock{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./assets/3606208.jpg);
+}
+#navBlock>article{
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+#navBlock>article>.navBlock_part{
+    width: 100%;
+    height: 90px;
+    /* background-color: bisque; */
+    display: flex;
+    /* align-items: center; */
+}
+.navBlock_part>.logoBlock{
+    flex-basis: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+.navBlock_part>.logoBlock>i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.navBlock_part>.logoBlock>h2{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family:'Antonio', sans-serif;
+  
+}
+.navBlock_part>.logoBlock>h2>a{
+    text-decoration: none;
+    color: rgb(65, 14, 14);
+}
+.navBlock_part>.logoBlock>h2>a:hover{
+    background-color:orange;
+}
+.navBlock_part>.menuBlock{
+    flex-basis: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    /* background-color:purple; */
+    justify-content: flex-end;
+    flex-direction: column;
+    /* background-color: blue; */
+    position: relative;
+}
+.menuBlock>.menuLinks ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 20px;
+    right: -23px;
+}
+.menuBlock>.bicycle-part{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color:rgb(65, 14, 14);
+}
+.menuBlock>.bicycle-part>a{
+  text-decoration: none;
+  color: rgb(65, 14, 14);
+  font-family: ;
+  font-size: 14px;
+}
+.menuBlock>.bicycle-part>a>.deliveryNumber{
+    font-weight: bolder;
+}
+.menuBlock>.menuLinks>ul>li>a{
+    text-decoration: none;
+    color: rgb(65, 14, 14);
+    margin-right: 24px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* content and image */
+.contentBlock{
+    display: flex;
+    height: 85%;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.contentBlock>.content_Para{
+    flex-basis: 50%;
+    height: inherit;
+    /* background-color: cadetblue; */
+    position: relative;
+}
+
+.contentBlock>.content_Para>p{
+    width: 270px;
+    padding: 8px;
+    border: 3px dashed rgb(65, 14, 14);
+    font-family:'Antonio', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    /* font-weight: bold; */
+    position: absolute;
+    top: 110px;
+}
+.contentBlock>.content_Para>h1{
+    width: 350px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 94px;
+    font-weight: bolder;
+    position: absolute;
+    top: 140px;
+    color: rgb(65, 14, 14);
+    text-shadow: 5px 2px 1px white;
+    letter-spacing: 3px;
+}
+.contentBlock>.content_Para>h2{
+    width: 350px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: bolder;
+    position: absolute;
+    top: 245px;
+    color: rgb(65, 14, 14);
+    text-shadow: 5px 2px 1px white;
+    letter-spacing: 3px;
+}
+.contentBlock>.content_image{
+    flex-basis: 50%;
+    height: inherit;
+    /* background-color: violet; */
+    position: relative;
+}
+.content_image>.content_image-img1{
+    width: 340px;
+    height: 300px;
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  z-index: 5;
+}
+.content_image>.content_image-img2{
+    width: 150px;
+    height: 400px;
+  position: absolute;
+  top: -6px;
+  right: 33px;
+}
+.content_image>.content_image-img3{
+    width: 300px;
+    height: 300px;
+  position: absolute;
+  top: 28px;
+  right: 233px;
+  z-index: 2;
+}
+.content_image>.content_image-img4{
+    width: 500px;
+    height: 500px;
+  position: absolute;
+  top: -157px;
+  right: 25px;
+  z-index: 1;
+}
+.content_image>.content_image-img5{
+  position: absolute;
+  top: 390px;
+  right: 78px;
+  z-index: 2;
+}
+.content_image>.content_image-img6{
+    width: 180px;
+    position: absolute;
+    top: 390px;
+    right: -14px;
+    z-index: 2;
+  }
+  .content-border{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 10px solid red;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    z-index: 6;
+    color:white;
+    flex-direction: column;
+    font-family:'Antonio', sans-serif;
+  }
+  .content-border>p>span{
+    font-size: 30px;
+  }
+  p[class="only"]{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  /* image section */
+  #image_Block{
+    width: 100%;
+    height: 65vh;
+    /* background-color: aqua; */
+    margin-top: 40px;
+  }
+  #image_Block>article{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: aquamarine; */
+    font-family:'Antonio', sans-serif;
+  }
+  #image_Block>article>.first_image-Block{
+    flex-basis: 50%;
+    height: inherit;
+    position: relative;
+  }
+  #image_Block>article>.first_image-Block>figure>img{
+    width: 100%;
+    height: 65vh;
+  }
+  #image_Block>article>.first_image-Block>figure>figcaption{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: white;
+  }
+  #image_Block>article>.second_image-Block{
+    flex-basis: 50%;
+    height: inherit;
+    margin-left: 30px;
+    position: relative;
+  }
+  #image_Block>article>.second_image-Block>.second_content-image>figure>.img-content1{
+width: 100%;
+height: 30vh;
+margin-bottom: 26px;
+  }
+  #image_Block>article>.second_image-Block>.second_content-image>figure>.figcaption-Top{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: white;
+  }
+  #image_Block>article>.second_image-Block>.second_content-image>figure>.figcaption-Bottom{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    color: white;
+  }
+  #image_Block>article>.second_image-Block>.second_content-image>figure>.img-content2{
+    width: 100%;
+    height: 30vh;
+      }
+
+      /* card section starts */
+      #card_Block{
+        width: 100%;
+        height: 95vh;
+        /* background-image: url(./assets/backgroundimage.png); */
+      }
+#card_Block>article{
+  width: 85%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: bisque; */
+}
+#card_Block>article>header{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  /* background-color: chartreuse; */
+}
+#card_Block>article>header>h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Antonio', sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 45px;
+  left: 550px;
+  padding: 10px;
+  background-color: orange;
+}
+#card_Block>article>header>h1{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 1.2px;
+position: absolute;
+top: 110px;
+left: 490px;
+color: rgb(65, 14, 14);
+}
+#card_Block>article>header>p{
+  width: 800px;
+  height: 40px;
+  font-size: 16px;
+ font-family: ;
+  position: absolute;
+  top: 155px;
+  left: 240px;
+  color: rgb(65, 14, 14);
+}
+#card_Block>article>main{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  /* background-color: burlywood; */
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-top: 50px; */
+}
+#card_Block>article>main>.card-images{
+  width: 30%;
+  height: inherit;
+  background-color: white;
+  position: relative;
+}
+#card_Block>article>main>.card-images>.card-img1>img{
+  width: 200px;
+  position: absolute;
+  top: 46px;
+  left: 85px;
+}
+#card_Block>article>main>.card-images>.card-img2>img{
+  width: 240px;
+  position: absolute;
+  top: 214px;
+  left:73px ;
+}
+#card_Block>article>main>.card-images>h1{
+  width: 240px;
+  position: absolute;
+  top: 254px;
+  left:75px ;
+  text-transform: uppercase;
+  font-family: 'Antonio', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgb(65, 14, 14);
+}
+#card_Block>article>main>.card-images>p{
+  width: 240px;
+  position: absolute;
+  top: 284px;
+  left:75px ;
+  font-family: ;
+  font-size: 12px;
+  color: rgb(65, 14, 14);
+}
+#card_Block>article>main>.card-images>button{
+  width: 120px;
+  position: absolute;
+  top: 344px;
+  left:130px ;
+  font-family: ;
+  font-size: 13px;
+  color: white;
+  padding: 10px 11px;
+  background-color: crimson;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+#card_Block>article>main>.card-images>button:hover{
+  background-color:rgb(90, 27, 39) ;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+/* discover starts here */
+.discoverBlock{
+  width: 100%;
+  height: 52vh;
+  /* background-color: brown; */
+}
+.discoverBlock>.innerBlock{
+  width: 75%;
+  height: inherit;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  box-shadow: 3px 5px 15px  black;
+}
+.discoverBlock>.innerBlock>.inner-content{
+  flex-basis: 50%;
+  /* background-color: coral; */
+  position: relative;
+
+}
+.discoverBlock>.innerBlock>.inner-content>h3{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.discoverBlock>.innerBlock>.inner-content>h1{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.discoverBlock>.innerBlock>.inner-content>p{
+  position: absolute;
+  top: 105px;
+  left: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+.discoverBlock>.innerBlock>.inner-img{
+  flex-basis: 50%;
+  /* background-color: yellow; */
+  position: relative;
+}
+.discoverBlock>.innerBlock>.inner-img>img{
+  width: 492px;
+  height: 330px;
+  position: absolute;
+  top: 20px;
+  left: 44px;
+  right: 20px;
+}
+
+/* reservation starts here */
+#reservationBlock{
+  width: 100%;
+  height: 60vh;
+  /* background-color: wheat; */
+  margin-top: 50px;
+}
+#reservationBlock>.tableBlock{
+  height: inherit;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* flex-direction: column; */
+  position: relative;
+  
+}
+#reservationBlock>.tableBlock>h3{
+  position: absolute;
+  top: 50px;
+  left: 725px;
+  font-family: 'Antonio', sans-serif;
+   color: rgb(65, 14, 14);
+}
+#reservationBlock>.tableBlock>h1{
+  position: absolute;
+  top: 75px;
+  left: 612px;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 24px;
+   letter-spacing: 3px;
+   color: rgb(65, 14, 14);
+  
+}
+#reservationBlock>.tableBlock>form{
+  position: absolute;
+  top: 160px;
+  left: 505px;
+}
+#reservationBlock>.tableBlock>form>input{
+  width: 250px;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding-left: 15px;
+  font-family: 'Antonio', sans-serif;
+}
+#reservationBlock>.tableBlock>form>.find{
+  background-color: rgb(222, 29, 29);
+  color: white;
+  padding-left: 65px;
+  border: none;
+   font-family: 'Alfa Slab One', cursive;
+}
+#reservationBlock>.tableBlock>.reservation-img1{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  width: 200px;
+  height: 300px;
+}
+#reservationBlock>.tableBlock>.reservation-img2{
+  position: absolute;
+  top: 160px;
+  left: 390px;
+  height: 150px;
+}
+#reservationBlock>.tableBlock>.reservation-img3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+
+/* footer starts here */
+#footerBlock {
+    width: 100%;
+    height: 65vh;
+}
+
+#footerBlock>.footerContent {
+    width: 94%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+      font-family: 'Antonio', sans-serif;
+}
+
+#footerBlock>.footerContent>img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(35%);
+    z-index: 1;
+}
+
+#footerBlock>.footerContent>.footer-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+
+}
+
+#footerBlock>.footerContent>.footer-section>.contentBlock {
+    width: 50%;
+    height: inherit;
+    color: white;
+    position: relative;
+}
+
+#footerBlock>.footerContent>.footer-section>.contentBlock>i {
+    color: white;
+    font-size: 64px;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+#footerBlock>.footerContent>.footer-section>.contentBlock>h1 {
+    font-size: 34px;
+    position: absolute;
+    top: 13%;
+    left: 20%;
+}
+
+#footerBlock>.footerContent>.footer-section>.contentBlock>.infoBlock {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    line-height: 25px;
+    color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+#footerBlock>.footerContent>.footer-section>.contentBlock>.copyBlock {
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    text-transform: uppercase;
+    color: #cccccc;
+
+}
+
+#footerBlock>.footerContent>.footer-section>.contactBlock {
+    width: 50%;
+    height: inherit;
+    color: white;
+    position: relative;
+}
+
+#footerBlock>.footerContent>.footer-section>.contactBlock>.locationText {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#footerBlock>.footerContent>.footer-section>.contactBlock>.mailText {
+    position: absolute;
+    top: 46%;
+    left: 25%;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#footerBlock>.footerContent>.footer-section>.contactBlock>h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+}
